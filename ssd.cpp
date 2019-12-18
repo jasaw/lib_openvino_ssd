@@ -149,7 +149,7 @@ SSDetector::SSDetector(bool matchJobIdToWorkerId_,
                        const std::string& modelBinPath,
                        const std::string& targetDeviceName,
                        std::set<int> idFilter_)
-    : meanPixel(cv::Vec3f::all(255)),
+    : meanPixel(cv::Vec3f::all(128)),
       inputLayerSize(-1, -1) {
 
     (void)targetDeviceName;
